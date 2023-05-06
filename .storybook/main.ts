@@ -7,7 +7,7 @@ function getStories({ dir = 'components' }) {
  return scope
   .map((pkg) => `${dirName}/${pkg}/stories`)
   .filter((storyDir) => fs.existsSync(storyDir))
-  .map((storyDir) => `../${storyDir}/*.stories.ts`)
+  .map((storyDir) => `../${storyDir}/*.stories.(ts|tsx)`)
 }
 
 const config: StorybookConfig = {
