@@ -1,6 +1,7 @@
 {
  "name": "lmw-ui",
  "private": true,
+ "homepage": "https://minoong.github.io/lmw-ui",
  "scripts": {
   "build": "turbo run build",
   "dev": "turbo run dev",
