@@ -1,1 +1,1 @@
-export * from './VirtualScroll'
+export { VirtualScroll } from './VirtualScroll'

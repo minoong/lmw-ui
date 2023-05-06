@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react'
-import VirtualScroll from '../src/VirtualScroll'
+import { VirtualScroll } from '../src/VirtualScroll'
 import { useState } from 'react'
 
 const length = 9000

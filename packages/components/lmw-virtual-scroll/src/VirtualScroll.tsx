@@ -1,3 +1,4 @@
+'use client'
 import React, { Children, PropsWithChildren, useMemo } from 'react'
 
 export interface Props extends PropsWithChildren {
@@ -8,7 +9,7 @@ export interface Props extends PropsWithChildren {
  renderAhead?: number
 }
 
-function VirtualScroll(props: Props) {
+function Component(props: Props) {
  const {
   height,
   itemHeight,
@@ -59,4 +60,4 @@ function VirtualScroll(props: Props) {
  )
 }
 
-export default React.memo(VirtualScroll)
+export const VirtualScroll = React.memo(Component)
