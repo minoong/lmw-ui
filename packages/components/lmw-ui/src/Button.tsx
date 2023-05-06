@@ -1,5 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import '../styles/button.css'
+import { css } from '@emotion/css'
+
+const color = 'white'
 
 export interface ButtonProps {
  /**
@@ -39,8 +43,16 @@ export const Button = ({
   : 'storybook-button--secondary'
  return (
   <button
-   type='button'
-   className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+   //    className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+   className={css`
+    padding: 32px;
+    background-color: hotpink;
+    font-size: 24px;
+    border-radius: 4px;
+    &:hover {
+     color: ${color};
+    }
+   `}
    style={{ backgroundColor }}
    {...props}
   >

@@ -25,7 +25,9 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 
 // src/Button.tsx
+var import_css = require("@emotion/css");
 var import_jsx_runtime = require("react/jsx-runtime");
+var color = "white";
 var Button = ({
   primary = false,
   size = "medium",
@@ -38,7 +40,15 @@ var Button = ({
     "button",
     {
       type: "button",
-      className: ["storybook-button", `storybook-button--${size}`, mode].join(" "),
+      className: import_css.css`
+    padding: 32px;
+    background-color: hotpink;
+    font-size: 24px;
+    border-radius: 4px;
+    &:hover {
+     color: ${color};
+    }
+   `,
       style: { backgroundColor },
       ...props,
       children: label
