@@ -171,6 +171,15 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
 
+  packages/components/lmw-virtual-scroll:
+    devDependencies:
+      clean-package:
+        specifier: 2.1.1
+        version: 2.1.1
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+
 packages:
 
   /@adobe/css-tools@4.2.0:
