@@ -11,7 +11,10 @@ function getStories({ dir = 'components' }) {
 }
 
 const config: StorybookConfig = {
- stories: [...getStories({ dir: 'components' })],
+ stories: [
+  ...getStories({ dir: 'components' }),
+  ...getStories({ dir: 'hooks' }),
+ ],
  addons: [
   '@storybook/addon-links',
   '@storybook/addon-essentials',
