@@ -1,4 +1,4 @@
-# Lee Miw woo/use-intersection-observer
+# Lee Miw woo/lmw-use-intersection-observer
 
 A Quick description of the component
 
@@ -7,7 +7,7 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add use-intersection-observer
+yarn add lmw-use-intersection-observer
 # or
-npm i use-intersection-observer
+npm i lmw-use-intersection-observer
 ```

@@ -1,9 +1,9 @@
 {
-  "name": "use-intersection-observer",
-  "version": "1.0.0",
-  "description": "React use-intersection-observer",
+  "name": "lmw-use-intersection-observer",
+  "version": "1.0.1",
+  "description": "React lmw-use-intersection-observer",
   "keywords": [
-    "use-intersection-observer"
+    "lmw-use-intersection-observer"
   ],
   "author": "Lee minwoo <minwoowho@gmail.com>",
   "homepage": "https://github.com/minoong/lmw-ui",
