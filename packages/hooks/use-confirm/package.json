@@ -1,9 +1,9 @@
 {
-  "name": "lmw-{{componentName}}",
+  "name": "lmw-use-confirm",
   "version": "1.0.0",
-  "description": "{{description}}",
+  "description": "React useConfirm",
   "keywords": [
-    "{{componentName}}"
+    "use-confirm"
   ],
   "author": "Lee minwoo <minwoowho@gmail.com>",
   "homepage": "https://github.com/minoong/lmw-ui",
@@ -19,7 +19,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minoong/lmw-ui",
-    "directory": "{{outDir}}/{{componentName}}"
+    "directory": "hooks/use-confirm"
   },
   "bugs": {
     "url": "https://github.com/minoong/lmw-ui/issues"

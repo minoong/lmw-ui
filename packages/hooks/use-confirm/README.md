@@ -1,4 +1,4 @@
-# Lee Miw woo/lmw-{{componentName}}
+# Lee Miw woo/lmw-use-confirm
 
 A Quick description of the component
 
@@ -7,7 +7,7 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add lmw-{{componentName}}
+yarn add lmw-use-confirm
 # or
-npm i lmw-{{componentName}}
+npm i lmw-use-confirm
 ```
