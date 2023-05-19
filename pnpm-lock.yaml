@@ -180,6 +180,15 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
 
+  packages/hooks/use-confirm:
+    devDependencies:
+      clean-package:
+        specifier: 2.1.1
+        version: 2.1.1
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+
   packages/hooks/use-intersection-observer:
     devDependencies:
       clean-package:
